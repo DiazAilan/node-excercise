@@ -13,6 +13,5 @@ export function getUserAlbums(userId: string) {
 export function getUserPhotos(userId: string) {
     const userAlbums = getUserAlbums(userId);
     const userAlbumsIds = userAlbums.map(album => album.id);
-    userAlbumsIds.forEach()
     return userAlbums;
 }

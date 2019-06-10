@@ -20,10 +20,11 @@ app.get(
 app.get('/photos', (_, res) => getPhotos().then(photosData => res.send(photosData)));
 app.get('/albums', (_, res) => getAlbums().then(albumsData => res.send(albumsData)));
 
-app.post(
+/* app.post(
     '/albums/:id/share',
     (req, res) => => shareAlbum().then(permits => res.send(permits));
 )
+ */
 
 app.get('/', (_, res) => res.send(glossary));
 

@@ -4,4 +4,6 @@ export function getAlbums() {
     return getResource('albums');
 }
 
-export function shareAlbum()
+export function shareAlbum() {
+    return null;
+}
